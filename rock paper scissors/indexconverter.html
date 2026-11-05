@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gram to Kilogram Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f0f2f5;
+    }
+    .converter {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+    input, button {
+      font-size: 1rem;
+      padding: 10px;
+      margin: 8px 0;
+    }
+    button {
+      background: #4a6cf7;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    #result {
+      font-size: 1.2rem;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="converter">
+    <h1>Gram to Kilogram</h1>
+    <input type="number" id="grams" placeholder="Enter grams">
+    <br>
+    <button id="convertBtn">Convert</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
